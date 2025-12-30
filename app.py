@@ -3,6 +3,7 @@ import cv2
 import numpy as np
 from PIL import Image
 from streamlit_image_comparison import image_comparison
+import io
 
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="NightVision AI Pro", layout="wide", initial_sidebar_state="expanded")
