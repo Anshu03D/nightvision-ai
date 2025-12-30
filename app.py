@@ -68,4 +68,4 @@ if uploaded:
     result_pil = Image.fromarray(output_rgb)
     buf = io.BytesIO()
     result_pil.save(buf, format="PNG")
-    st.sidebar.download_button("📥 Download Result", buf.getvalue(), "enhanced.png", "image/png")
+    st.sidebar.download_button("📥 Download Result", buf.getvalue(), "enhanced.png", "image/png")# Version 3.0 UI Fix
